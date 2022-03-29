@@ -12,7 +12,7 @@
 [点击下载固件](https://github.com/taanng/R2S_Openwrt/releases) 
 
 
-### 参考
+### 参考 
 
 - [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)
 - [OpenWrt](https://github.com/openwrt/openwrt)
