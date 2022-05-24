@@ -180,10 +180,12 @@ jobs:
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
-      uses: GitRML/delete-workflow-runs@main
+      uses: Mattraks/delete-workflow-runs@v2.0.2
       with:
-          retain_days: 30
+          retain_days: 3
           keep_minimum_runs: 3
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: https://github.com/taanng/R2S_Openwrt
 
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.2.0
