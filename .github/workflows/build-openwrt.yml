@@ -182,7 +182,7 @@ jobs:
     - name: Delete workflow runs
       uses: Mattraks/delete-workflow-runs@v2.0.2
       with:
-          retain_days: 3
+          retain_days: 2
           keep_minimum_runs: 3
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: taanng/R2S_Openwrt
